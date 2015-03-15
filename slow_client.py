@@ -1,5 +1,5 @@
 import sys
 import requests
 
-response = requests.get(sys.argv[1])
+response = requests.get("http://localhost:5000")
 print response.content
