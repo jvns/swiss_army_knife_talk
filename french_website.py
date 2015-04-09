@@ -19,4 +19,4 @@ def index():
     """.format(body=body)
     return make_response(resp)
 
-app.run(debug=True)
+app.run()
