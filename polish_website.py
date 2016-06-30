@@ -7,7 +7,7 @@ app = Flask(__name__)
 def index():
     language = request.headers.get('Accept-Language', '')
     if 'en' in language:
-        body = "Hello, welcome to PolyConf!"
+        body = "Welcome to PolyConf!"
     else:
         body = "Witajcie na Polyconfie!"
  
