@@ -7,9 +7,9 @@ app = Flask(__name__)
 def index():
     language = request.headers.get('Accept-Language', '')
     if 'en' in language:
-        body = "Hello, Devops Montreal! =D =D so fun"
+        body = "Hello, Monitorama! =D =D so fun"
     else:
-        body= u"Bonsoir, Devops Montr\xe9al!"
+        body= u"Bonjour, Monitorama!"
     resp = u"""
     <html>
     <body>
