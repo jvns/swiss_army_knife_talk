@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def slow():
-    time.sleep(2)
+    time.sleep(200)
     return "Hi!"
 
 app.run()

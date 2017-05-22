@@ -1,5 +1,5 @@
 import sys
-import requests
+import urllib2
 
-response = requests.get("http://localhost:5000")
-print response.content
+response = urllib2.urlopen('http://localhost:5000')
+print response.read()
