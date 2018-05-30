@@ -1,6 +1,12 @@
 a= File.open('./words.txt').read
+a = a + a + a + a + a
 
-1000.times do
-/hay/ =~ a 
+
+def my_cool_function(a)
+    1000.times do
+        /hay/ =~ a 
+    end
 end
+
+my_cool_function(a)
    
